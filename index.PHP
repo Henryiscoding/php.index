@@ -102,3 +102,39 @@ switch ($lightcolour){
          elseif ($age>=65) {
            echo "R30 please";
  }
+
+
+ <?php
+
+$Lara = "Hey Lara";
+$John = "Yoh, John";
+$Micheal = "Micheal, what's up ?";
+$Richard = "Richard , Long time no see";
+$Sarah = "Sarah, it's been a while";
+
+$name = 'Blue';
+
+
+switch ($name){
+  case 'Lara':
+    echo "$Lara";
+    break;
+  case 'John':
+    echo "$John";
+    break;
+  case 'Micheal':
+    echo "$Micheal";
+    break; 
+  case 'Richard':
+    echo "$Richard";
+    break;
+  case 'Sarah':
+    echo "$Sarah";
+    break;
+}
+
+if( $name !== 'Lara' && $name !== 'John' && $name !== 'Micheal' && $name !== 'Richard' && $name !== 'Sarah' ) {
+  echo "Unknown User";
+}
+
+
